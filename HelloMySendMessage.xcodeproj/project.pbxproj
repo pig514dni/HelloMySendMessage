@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1A15FA1D13936100DA1DF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A15F91D13936100DA1DF6 /* main.m */; };
+		DB1A15FD1D13936100DA1DF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A15FC1D13936100DA1DF6 /* AppDelegate.m */; };
+		DB1A16001D13936100DA1DF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A15FF1D13936100DA1DF6 /* ViewController.m */; };
+		DB1A16031D13936100DA1DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1A16011D13936100DA1DF6 /* Main.storyboard */; };
+		DB1A16051D13936100DA1DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1A16041D13936100DA1DF6 /* Assets.xcassets */; };
+		DB1A16081D13936100DA1DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1A16061D13936100DA1DF6 /* LaunchScreen.storyboard */; };
+		DB34EAB41D1CE4A8009C1ADF /* frame_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DB34EAB31D1CE4A8009C1ADF /* frame_01.png */; };
+		DB34EAB71D1D1A88009C1ADF /* ChatLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34EAB61D1D1A88009C1ADF /* ChatLogManager.m */; };
+		DB42DEE51D1B92FD006E2C64 /* ChattingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB42DEE41D1B92FD006E2C64 /* ChattingItem.m */; };
+		DB42DEE81D1B95D4006E2C64 /* ChattingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB42DEE71D1B95D4006E2C64 /* ChattingView.m */; };
+		DB42DEEB1D1BAE93006E2C64 /* ChattingBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB42DEEA1D1BAE93006E2C64 /* ChattingBubbleView.m */; };
+		DB42DF141D1BD6B8006E2C64 /* fromMe.png in Resources */ = {isa = PBXBuildFile; fileRef = DB42DF101D1BD6B8006E2C64 /* fromMe.png */; };
+		DB42DF151D1BD6B8006E2C64 /* fromMe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB42DF111D1BD6B8006E2C64 /* fromMe@2x.png */; };
+		DB42DF161D1BD6B8006E2C64 /* fromOthers.png in Resources */ = {isa = PBXBuildFile; fileRef = DB42DF121D1BD6B8006E2C64 /* fromOthers.png */; };
+		DB42DF171D1BD6B8006E2C64 /* fromOthers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB42DF131D1BD6B8006E2C64 /* fromOthers@2x.png */; };
+		DB57E9061D23ADF300CA359A /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB57E9051D23ADF300CA359A /* bell.mp3 */; };
+		DB7882381D13A5D50016551D /* Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7882371D13A5D50016551D /* Communicator.m */; };
+		E21D1187AB02CFECA1BF4930 /* libPods-HelloMySendMessage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C46C6A513A4E9106CAC4C9A7 /* libPods-HelloMySendMessage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7386127EE3CF87D154726FDA /* Pods-HelloMySendMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMySendMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMySendMessage/Pods-HelloMySendMessage.release.xcconfig"; sourceTree = "<group>"; };
+		C46C6A513A4E9106CAC4C9A7 /* libPods-HelloMySendMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloMySendMessage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A15F51D13936100DA1DF6 /* HelloMySendMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMySendMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A15F91D13936100DA1DF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1A15FB1D13936100DA1DF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1A15FC1D13936100DA1DF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1A15FE1D13936100DA1DF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1A15FF1D13936100DA1DF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1A16021D13936100DA1DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1A16041D13936100DA1DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1A16071D13936100DA1DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1A16091D13936100DA1DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB34EAB31D1CE4A8009C1ADF /* frame_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_01.png; sourceTree = "<group>"; };
+		DB34EAB51D1D1A88009C1ADF /* ChatLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatLogManager.h; sourceTree = "<group>"; };
+		DB34EAB61D1D1A88009C1ADF /* ChatLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatLogManager.m; sourceTree = "<group>"; };
+		DB42DEE31D1B92FC006E2C64 /* ChattingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChattingItem.h; sourceTree = "<group>"; };
+		DB42DEE41D1B92FD006E2C64 /* ChattingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChattingItem.m; sourceTree = "<group>"; };
+		DB42DEE61D1B95D4006E2C64 /* ChattingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChattingView.h; sourceTree = "<group>"; };
+		DB42DEE71D1B95D4006E2C64 /* ChattingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChattingView.m; sourceTree = "<group>"; };
+		DB42DEE91D1BAE93006E2C64 /* ChattingBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChattingBubbleView.h; sourceTree = "<group>"; };
+		DB42DEEA1D1BAE93006E2C64 /* ChattingBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChattingBubbleView.m; sourceTree = "<group>"; };
+		DB42DF101D1BD6B8006E2C64 /* fromMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fromMe.png; sourceTree = "<group>"; };
+		DB42DF111D1BD6B8006E2C64 /* fromMe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fromMe@2x.png"; sourceTree = "<group>"; };
+		DB42DF121D1BD6B8006E2C64 /* fromOthers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fromOthers.png; sourceTree = "<group>"; };
+		DB42DF131D1BD6B8006E2C64 /* fromOthers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fromOthers@2x.png"; sourceTree = "<group>"; };
+		DB57E9051D23ADF300CA359A /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		DB7882361D13A5D50016551D /* Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communicator.h; sourceTree = "<group>"; };
+		DB7882371D13A5D50016551D /* Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communicator.m; sourceTree = "<group>"; };
+		E6D5898BC2E748BA8B5A6FBF /* Pods-HelloMySendMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMySendMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMySendMessage/Pods-HelloMySendMessage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1A15F21D13936100DA1DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21D1187AB02CFECA1BF4930 /* libPods-HelloMySendMessage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5CE6593D6F501897D0C1E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C46C6A513A4E9106CAC4C9A7 /* libPods-HelloMySendMessage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3F9F2E25269BADB2DB3442A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5898BC2E748BA8B5A6FBF /* Pods-HelloMySendMessage.debug.xcconfig */,
+				7386127EE3CF87D154726FDA /* Pods-HelloMySendMessage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB1A15EC1D13936100DA1DF6 = {
+			isa = PBXGroup;
+			children = (
+				DB1A15F71D13936100DA1DF6 /* HelloMySendMessage */,
+				DB1A15F61D13936100DA1DF6 /* Products */,
+				C3F9F2E25269BADB2DB3442A /* Pods */,
+				9C5CE6593D6F501897D0C1E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1A15F61D13936100DA1DF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A15F51D13936100DA1DF6 /* HelloMySendMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1A15F71D13936100DA1DF6 /* HelloMySendMessage */ = {
+			isa = PBXGroup;
+			children = (
+				DB57E9051D23ADF300CA359A /* bell.mp3 */,
+				DB42DEE21D1B911D006E2C64 /* ChattingView */,
+				DB1A15FB1D13936100DA1DF6 /* AppDelegate.h */,
+				DB1A15FC1D13936100DA1DF6 /* AppDelegate.m */,
+				DB1A15FE1D13936100DA1DF6 /* ViewController.h */,
+				DB1A15FF1D13936100DA1DF6 /* ViewController.m */,
+				DB1A16011D13936100DA1DF6 /* Main.storyboard */,
+				DB7882361D13A5D50016551D /* Communicator.h */,
+				DB7882371D13A5D50016551D /* Communicator.m */,
+				DB1A16041D13936100DA1DF6 /* Assets.xcassets */,
+				DB1A16061D13936100DA1DF6 /* LaunchScreen.storyboard */,
+				DB1A16091D13936100DA1DF6 /* Info.plist */,
+				DB1A15F81D13936100DA1DF6 /* Supporting Files */,
+			);
+			path = HelloMySendMessage;
+			sourceTree = "<group>";
+		};
+		DB1A15F81D13936100DA1DF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A15F91D13936100DA1DF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB42DEE21D1B911D006E2C64 /* ChattingView */ = {
+			isa = PBXGroup;
+			children = (
+				DB34EAB31D1CE4A8009C1ADF /* frame_01.png */,
+				DB42DF101D1BD6B8006E2C64 /* fromMe.png */,
+				DB42DF111D1BD6B8006E2C64 /* fromMe@2x.png */,
+				DB42DF121D1BD6B8006E2C64 /* fromOthers.png */,
+				DB42DF131D1BD6B8006E2C64 /* fromOthers@2x.png */,
+				DB34EAB51D1D1A88009C1ADF /* ChatLogManager.h */,
+				DB34EAB61D1D1A88009C1ADF /* ChatLogManager.m */,
+				DB42DEE31D1B92FC006E2C64 /* ChattingItem.h */,
+				DB42DEE41D1B92FD006E2C64 /* ChattingItem.m */,
+				DB42DEE61D1B95D4006E2C64 /* ChattingView.h */,
+				DB42DEE71D1B95D4006E2C64 /* ChattingView.m */,
+				DB42DEE91D1BAE93006E2C64 /* ChattingBubbleView.h */,
+				DB42DEEA1D1BAE93006E2C64 /* ChattingBubbleView.m */,
+			);
+			name = ChattingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1A15F41D13936100DA1DF6 /* HelloMySendMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A160C1D13936100DA1DF6 /* Build configuration list for PBXNativeTarget "HelloMySendMessage" */;
+			buildPhases = (
+				BAF00154A6DD20CEE231BCDD /* 📦 Check Pods Manifest.lock */,
+				DB1A15F11D13936100DA1DF6 /* Sources */,
+				DB1A15F21D13936100DA1DF6 /* Frameworks */,
+				DB1A15F31D13936100DA1DF6 /* Resources */,
+				254BD746953135A9E1BBA967 /* 📦 Embed Pods Frameworks */,
+				CF25CFA96891936D2F6F2DD5 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMySendMessage;
+			productName = HelloMySendMessage;
+			productReference = DB1A15F51D13936100DA1DF6 /* HelloMySendMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1A15ED1D13936100DA1DF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "張峻綸";
+				TargetAttributes = {
+					DB1A15F41D13936100DA1DF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DB1A15F01D13936100DA1DF6 /* Build configuration list for PBXProject "HelloMySendMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1A15EC1D13936100DA1DF6;
+			productRefGroup = DB1A15F61D13936100DA1DF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1A15F41D13936100DA1DF6 /* HelloMySendMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1A15F31D13936100DA1DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A16081D13936100DA1DF6 /* LaunchScreen.storyboard in Resources */,
+				DB1A16051D13936100DA1DF6 /* Assets.xcassets in Resources */,
+				DB57E9061D23ADF300CA359A /* bell.mp3 in Resources */,
+				DB34EAB41D1CE4A8009C1ADF /* frame_01.png in Resources */,
+				DB42DF161D1BD6B8006E2C64 /* fromOthers.png in Resources */,
+				DB42DF171D1BD6B8006E2C64 /* fromOthers@2x.png in Resources */,
+				DB1A16031D13936100DA1DF6 /* Main.storyboard in Resources */,
+				DB42DF141D1BD6B8006E2C64 /* fromMe.png in Resources */,
+				DB42DF151D1BD6B8006E2C64 /* fromMe@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		254BD746953135A9E1BBA967 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMySendMessage/Pods-HelloMySendMessage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF00154A6DD20CEE231BCDD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF25CFA96891936D2F6F2DD5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMySendMessage/Pods-HelloMySendMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1A15F11D13936100DA1DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34EAB71D1D1A88009C1ADF /* ChatLogManager.m in Sources */,
+				DB1A16001D13936100DA1DF6 /* ViewController.m in Sources */,
+				DB42DEEB1D1BAE93006E2C64 /* ChattingBubbleView.m in Sources */,
+				DB42DEE51D1B92FD006E2C64 /* ChattingItem.m in Sources */,
+				DB42DEE81D1B95D4006E2C64 /* ChattingView.m in Sources */,
+				DB1A15FD1D13936100DA1DF6 /* AppDelegate.m in Sources */,
+				DB7882381D13A5D50016551D /* Communicator.m in Sources */,
+				DB1A15FA1D13936100DA1DF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1A16011D13936100DA1DF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A16021D13936100DA1DF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1A16061D13936100DA1DF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A16071D13936100DA1DF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1A160A1D13936100DA1DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1A160B1D13936100DA1DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1A160D1D13936100DA1DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D5898BC2E748BA8B5A6FBF /* Pods-HelloMySendMessage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMySendMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap102.apns.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB1A160E1D13936100DA1DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7386127EE3CF87D154726FDA /* Pods-HelloMySendMessage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMySendMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap102.apns.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1A15F01D13936100DA1DF6 /* Build configuration list for PBXProject "HelloMySendMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A160A1D13936100DA1DF6 /* Debug */,
+				DB1A160B1D13936100DA1DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A160C1D13936100DA1DF6 /* Build configuration list for PBXNativeTarget "HelloMySendMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A160D1D13936100DA1DF6 /* Debug */,
+				DB1A160E1D13936100DA1DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1A15ED1D13936100DA1DF6 /* Project object */;
+}
